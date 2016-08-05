@@ -1,9 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>i</title>
-</head>
-<body>
 
+<head>
+    <title>Vacation Village - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="parse.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <ul class="w3-navbar w3-opaque w3-card-2 w3-top w3-left-align w3-large" style="background-color:rgba(38,38,43,.75)">
+        <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+            <a class="w3-padding-large w3-hover-white w3-large w3-white" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        </li>
+        <li><a href="home.html" class="w3-padding-large w3-white">Home</a></li>
+        <li class="w3-hide-small"><a href="about.html" class="w3-padding-large w3-hover-white" style="color:white;">About</a></li>
+        <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" style="color:white;">Contact</a></li>
+        <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" style="color:white;">Homes</a></li>
+        <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" style="color:white;">Rates</a></li>
+        <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" style="color:white;">Area</a></li>
+    </ul>
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:51px">
+        <ul class="w3-navbar w3-left-align w3-large w3-black">
+            <li><a class="w3-padding-large" href="#">About</a></li>
+            <li><a class="w3-padding-large" href="#">Contact</a></li>
+            <li><a class="w3-padding-large" href="#">Homes</a></li>
+            <li><a class="w3-padding-large" href="#">Rates</a></li>
+            <li><a class="w3-padding-large" href="#">Area</a></li>
+        </ul>
+    </div>
+    <!-- Header -->
+    <div class="w3-container w3-red w3-center w3-padding-128" id="backgroundImage">
+        <h1 class="w3-margin w3-jumbo">Home</h1>
+        <p class="w3-xlarge">Vacation Village</p>
+        <!-- <button class="w3-btn w3-padding-16 w3-large w3-margin-top">Get Started</button> -->
+    </div>
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+            <p>Beneath the towering maples on the water's edge, you will love calling Vacation Village Home.</p>
+                <ul class="w3-padding-32">
+                    <li>10 Acre Mobile Home Park</li>
+                    <li>On 140 Acre Spring Fed Bass Lake</li>
+                    <li>300 Feet of Private Water Access</li>
+                    <li>Residential Common Areas</li>
+                    <li>Heavily Wooded Property</li>
+                    <li>City Water and Sewer</li>
+                    <li>Homes For Sale and/or For Rent</li>
+                    <li>Lots Available for New Homes to be Installed</li>
+                </ul>
+            </div>
+            <div class="w3-third w3-center">
+                <div class="w3-container">
+                    <img src="homearea.jpg" alt="" style="width:100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-third w3-center">
+                <div class="w3-container">
+                    <img src="aboutus.jpg" alt="" style="height:100%">
+                </div>
+            </div>
+            <div class="w3-twothird">
+                <h1>About Us</h1>
+                <h5 class="w3-padding-32">Vacation Village, a ten-acre high quality mobile home development for seniors aged 55 and older, includes 300 feet of frontage on the beautiful shores of Bass Lake in downtown Elk Rapids.</h5>
+            </div>
+        </div>
+    </div>
+    <!-- Third Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Area</h1>
+                <h5 class="w3-padding-32">Vacation Village is directly across the street from the Elk Rapids Golf Club. Three-minute drive to the Village of Elk Rapids. Twenty minutes from Traverse City.</h5>
+            </div>
+            <div class="w3-third w3-center">
+                <div class="w3-container">
+                    <img src="area.jpg" alt="" style="height:100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fourth Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-third w3-center">
+                <div class="w3-container">
+                    <img src="availablelots.jpg" alt="" style="height:100%">
+                </div>
+            </div>
+            <div class="w3-twothird">
+                <h1>Available Lots</h1>
+                <h5 class="w3-padding-32">Vacation Village lots range in price from $343 to $375* per month, depending on the location of the lot. Navigate to rates for more information on lot pricing.</h5>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-row-padding w3-grey w3-padding-32 w3-container">
+        <center>
+            <p style="margin-top:30px;">Powered by <a href="http://www.apollotechnology.co" target="_blank">Apollo Technology, LLC.</a></p>
+        </center>
+    </footer>
 </body>
+
 </html>
